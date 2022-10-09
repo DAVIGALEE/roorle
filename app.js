@@ -105,6 +105,18 @@ $("#locBtn2").click(()=>{
 })
 
 
+$("#detBtn").click(()=>{
+  window.location.href='/pages/radisson.html'
+})
+$("#detBtn1").click(()=>{
+  window.location.href='/pages/biltmore.html'
+})
+$("#detBtn2").click(()=>{
+  window.location.href='/pages/marriott.html'
+})
+
+
+
 
 
 

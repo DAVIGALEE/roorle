@@ -1,0 +1,162 @@
+body{
+    overflow: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display:flex;
+    width:100vw;
+    background-color:bisque;
+    height:30vh;
+    justify-content: space-between;;
+}
+#my-map{
+    width:100vw;
+    height:100vh;
+    margin:auto;
+    position: relative;
+    
+}
+.container div{
+    text-align: center;
+    display :flex;
+    flex-direction: column;
+    color:white;
+    width:33.33%;
+    height:100%;
+   
+}
+.container div button{
+  width:50%;
+  margin:auto;
+}
+
+button{
+    display: block;
+    width: 50px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background-color:rgb(44, 43, 43);
+    color:white;
+    
+  }
+  
+  button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:transparent;
+    color:white;
+    transition: all .35s;
+    filter: blur(5px);
+  }
+  
+  button:hover{
+    background-color:transparent;
+    color: #fff;
+    cursor: pointer;
+    filter: blur(0.8px);
+  }
+  
+  button:hover:after{
+    width: 100%;
+  }
+.subContainer1{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color:white;
+}
+.subContainer1::before{
+    content:"";
+    background: url("./backgrounds/radisson.jpg")no-repeat 0 50%;;
+    background-size:cover;
+    position:absolute;
+    top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    opacity:0.85;
+}
+
+.subContainer1 h1 {
+    color:white;
+    position: relative;
+}
+.subContainer1 button {
+    color:white;
+    position: relative;
+}
+/*sub2*/
+.subContainer2{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.subContainer2::before{
+    content:"";
+    background: url("./backgrounds/biltmore.jpg")no-repeat 0 50%;;
+    background-size:cover;
+    position:absolute;
+    top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    opacity:0.85;
+    
+}
+.subContainer2 h1 {
+    color:white;
+    position: relative;
+}
+.subContainer2 button {
+    color:white;
+    position: relative;
+}
+
+.subContainer3{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.subContainer3::before{
+    content:"";
+    background: url("./backgrounds/marriott.webp")no-repeat 0 50%;;
+    background-size:cover;
+    position:absolute;
+    top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    opacity:0.85;
+}
+.subContainer3 h1 {
+    color:white;
+    position: relative;
+}
+.subContainer3 button {
+    color:white;
+    position: relative;
+}
+
+.container div:first-child{
+    margin-bottom:2in;
+}
+.locBtns{
+    position: relative;
+    top:15%;
+}

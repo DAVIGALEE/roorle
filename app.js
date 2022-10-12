@@ -115,8 +115,8 @@ $("#detBtn2").click(()=>{
   window.location.href='/pages/marriott.html'
 })
 
-
-
-
-
+$(".locBtns").hover(()=>{
+  
+  $(this).css("color:white")
+})
 

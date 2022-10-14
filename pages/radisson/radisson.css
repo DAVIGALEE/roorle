@@ -1,7 +1,16 @@
-body{
-    overflow-x: hidden;
+html{
+  box-sizing: border-box;
+  margin:auto;
 }
 
+body{
+    overflow-x: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+  top:20%;
+  z-index:0;
+}
 #slide1 {
     background-image: url('./assets//r1.webp');
     margin-right:20px;
@@ -30,6 +39,7 @@ body{
   .slide-image {
     width: 50vw;
     height: 50vh;
+    
   }
   .slide-image {
     width: 50vw;
@@ -44,6 +54,7 @@ body{
     height: 50vh;
     margin-left:0;
     
+    
   }
   
   .slide-image {
@@ -52,4 +63,20 @@ body{
     background-position: center;
     background-size: cover;
     display: inline-block;
+  }
+  .header{
+    text-align: center;
+  }
+  .article{
+    position: absolute;
+    margin:0;
+    right:2px;
+    z-index:1;
+    top:70%;
+    width:100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    text-align: center;
+  }
+  footer p {
+    font-size:20px;
   }

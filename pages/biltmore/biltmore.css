@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -50,4 +51,25 @@ body{
     background-position: center;
     background-size: cover;
     display: inline-block;
+  }
+  .header{
+    text-align: center;
+  }
+  section{
+    position:absolute;
+    top:20%;
+    z-index:0;
+  }
+  .article{
+    position: absolute;
+    margin:0;
+    right:2px;
+    z-index:1;
+    top:70%;
+    width:100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    text-align: center;
+  }
+  footer p {
+    font-size:20px;
   }
